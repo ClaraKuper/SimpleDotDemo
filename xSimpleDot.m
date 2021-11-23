@@ -17,7 +17,7 @@ expCode = 'Dot';
 sprintf('Now running experiment %s',expCode);
 
 % add the functions folder to searchpath and define storage paths
-addpath('Functions/','Data/', 'edf/');
+addpath('Functions/','Data/', '/Design');
 
 % Unify keys in case sb codes with a different system
 KbName('UnifyKeyNames');
